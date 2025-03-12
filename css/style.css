@@ -4,6 +4,61 @@ td, th {
   
 body {
   background-image: url("../images/wallpaper.png");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
 }
 
-  
+#planets img {
+  width: 300px; 
+  height: auto;
+  max-height: 100px; 
+}
+
+@font-face {
+    font-family: 'coolfont'; /* Choose any name */
+    src: url('../fonts/coolfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'coolfont', sans-serif;
+    text-align: center;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    font-size: 2.5em;
+}
+
+/* Sci-fi glowing table */
+#planets {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'CustomSciFi', sans-serif;
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+/* Sci-fi glowing table headers */
+#planets th {
+    background-color: rgba(0, 255, 204, 0.2);
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+}
+
+/* Sci-fi glowing table rows */
+#planets td {
+    padding: 10px;
+    border: 1px solid #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+}
+
+
+
+
